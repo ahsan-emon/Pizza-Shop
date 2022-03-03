@@ -75,6 +75,9 @@ header .order-now-row ul li a {
   color: #121212;
   background-color: #fff;
 }
+.btn:focus {
+  box-shadow: none;
+}
 header .navbar-nav .nav-item {
   margin-right: 15px;
 }
@@ -223,4 +226,290 @@ main {
 .facilities-icon i {
   color: #fff;
   font-size: 50px;
+}
+/* food menu */
+.food-menu {
+  padding: 100px 0;
+}
+.food-menu h5 {
+  text-transform: uppercase;
+  color: #e4032f;
+}
+.food-menu h1 {
+  color: #121212;
+  font-size: 60px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.food-menu p {
+  color: #575757;
+  width: 60%;
+  font-size: 17px;
+  margin: auto;
+  padding-bottom: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.view-all-menu-btn {
+  color: #e4032f;
+  border: 1px solid #e4032f;
+  padding: 13px 25px;
+}
+.view-all-menu-btn:hover {
+  color: #fff;
+  background-color: #e4032f;
+}
+.food-menu h2 {
+  text-transform: uppercase;
+  color: #e4032f;
+  margin-top: 20px;
+}
+.food-menu .menu-pizza-col {
+  padding-top: 80px;
+}
+.food-menu img {
+  width: 85%;
+  transition: 0.4s all ease-in-out;
+}
+.food-menu img:hover {
+  transform: scale(1.06);
+}
+/* best deal start  */
+.best-deals {
+  padding: 100px 0;
+}
+.best-deals h1 {
+  font-size: 60px;
+  color: #121212;
+  text-transform: uppercase;
+}
+.offer-img {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.offer-img-shape-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.offer-1 {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 120px;
+  height: 120px;
+  background-color: #e4032f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-1 h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.offer-shape-text-1 {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+.offer-shape-text-1 h5 {
+  color: #f9a609;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.offer-shape-text-1 h1 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.offer-shape-text-1 p {
+  color: #fff;
+  font-weight: 600;
+  padding: 20px 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.offer-img .price {
+  font-size: 80px;
+  color: #fff;
+}
+.offer-img-2 img {
+  width: 100%;
+}
+.offer-img-shape-2 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+.offer-shape-text-2 {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  text-align: end;
+}
+.offer-shape-text-2 h2 {
+  color: #fff;
+  font-size: 35px;
+  color: #f9a609;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.offer-img-shape-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.offer-shape-text-3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+  text-align: end;
+}
+.offer-shape-text-3 h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 35px;
+}
+.offer-shape-text-3 h5 {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 15px 0;
+}
+.offer-2 {
+  background-color: #fecc00;
+  left: 65%;
+  transform: translateX(-50%);
+}
+.offer-2 h2 {
+  color: #121212;
+}
+/* location start  */
+.location h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.get-in-touch p {
+  width: 100%;
+}
+/* customer review start  */
+.customer-review {
+  background-image: url("../images/customers-review.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 550px;
+}
+.follow-instra {
+  background-color: #e4032f;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-instra i {
+  color: #f7f6f2;
+  font-size: 60px;
+}
+.follow-instra h1 {
+  color: #f7f6f2;
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.follow-instra p {
+  color: #f7f6f2;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.visit-instra-btn i {
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.4s all ease-in-out;
+}
+.visit-instra-btn:hover i {
+  color: #121212;
+}
+/* customer rating start  */
+.customer-ratings {
+  background-color: #e4032f;
+  padding: 70px 0;
+}
+.cust-rating i {
+  font-size: 70px;
+  color: #fff;
+  margin-right: 10px;
+}
+.cust-rating h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-right: 15px;
+}
+.cust-rating ul li i {
+  font-size: 16px;
+  margin: 0;
+}
+.cust-rating h6 {
+  margin-top: 10px;
+  color: #fff;
+}
+/* download app start  */
+.download-app {
+  padding-bottom: 0;
+}
+.download-app img:hover {
+  transform: scale(1);
+}
+.download-app h2 {
+  color: #121212;
+  font-size: 40px;
+}
+.download-app p {
+  width: 100%;
+}
+.btn-div {
+  margin-top: 20px;
+}
+.btn-div button {
+  margin-right: 25px;
+}
+/* footer start  */
+footer {
+  padding-top: 100px;
+}
+footer .about-us img {
+  margin-bottom: 40px;
+}
+footer p {
+  color: #575757;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 20px;
+}
+footer .about-us h3 {
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+footer .about-us ul {
+  list-style: none;
+}
+footer .about-us ul li a i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer .about-us ul li {
+  margin-bottom: 5px;
+}
+footer .about-us ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-family: "Source Sans Pro", sans-serif;
+  transition: 0.3s all ease-in-out;
+}
+footer .about-us ul li a:hover {
+  color: #e4032f;
+}
+footer .about-us {
+  margin-bottom: 50px;
 }
