@@ -1,0 +1,155 @@
+@media (max-width: 1024px) {
+  .header-text {
+    padding-bottom: 300px;
+  }
+}
+@media (max-width: 767px) {
+  /* header  */
+  .header-text {
+    padding-bottom: 200px;
+  }
+  .ingredients-col {
+    margin-top: 100px;
+  }
+  .handmade-col {
+    padding-top: 0px;
+  }
+  .header-text h1 {
+    font-size: 60px;
+  }
+  .header-text p {
+    width: 80%;
+    padding-bottom: 50px;
+  }
+  /* restaurant facilities  */
+  .restaurant-facilities {
+    padding: 80px 0;
+  }
+  .restaurant-facilities h1 {
+    font-size: 50px;
+  }
+  .restaurant-facilities h2 {
+    margin: 20px 0;
+  }
+  /* food menu  */
+  .food-menu h1 {
+    font-size: 45px;
+  }
+  .food-menu p {
+    width: 80%;
+    font-size: 16px;
+  }
+  .food-menu .menu-pizza-col {
+    padding-top: 0px;
+  }
+  /* best deal  */
+  .best-deals {
+    padding: 40px 0;
+  }
+  .best-deals h1 {
+    font-size: 45px;
+  }
+  .offer-img-shape-1 {
+    width: 70%;
+    height: 100%;
+  }
+  .offer-1 {
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  .offer-shape-text-1 {
+    right: 5%;
+    width: 40%;
+  }
+  .offer-shape-text-1 h5 {
+    margin-bottom: 15px;
+  }
+  .offer-shape-text-1 h1 {
+    font-size: 45px;
+  }
+  .offer-shape-text-1 p {
+    padding: 10px 0;
+  }
+  .offer-img .price {
+    font-size: 60px;
+  }
+  .offer-2 {
+    left: 58%;
+  }
+  /* location  */
+  .location h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .location p {
+    padding-bottom: 0px;
+  }
+  /* get in touch  */
+  .get-in-touch p {
+    width: 100%;
+  }
+  /* customer rating  */
+  .customer-ratings {
+    padding: 50px 0;
+  }
+  /* download app  */
+  .download-app p {
+    width: 100%;
+  }
+  .mobile-view {
+    text-align: start;
+  }
+}
+@media (max-width: 575px) {
+  /* header  */
+  .header-text {
+    padding-bottom: 150px;
+  }
+  header .header-img {
+    bottom: -150px;
+  }
+  .ingredients-col {
+    margin-top: 30px;
+  }
+  .header-text h1 {
+    font-size: 50px;
+  }
+  /* restaurant facilities  */
+  .restaurant-facilities h1 {
+    font-size: 40px;
+  }
+  /* food menu  */
+  .food-menu h1 {
+    font-size: 40px;
+  }
+  /* best deal  */
+  .best-deals {
+    padding: 30px 0;
+  }
+  .best-deals h1 {
+    font-size: 40px;
+  }
+  .offer-shape-text-1 h1 {
+    font-size: 40px;
+  }
+  .offer-img .price {
+    font-size: 50px;
+  }
+  .offer-2 {
+    left: 60%;
+  }
+  /* location  */
+  .location h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 389px) {
+  .book-table-btn {
+    margin-right: 10px;
+  }
+  .btn-div button {
+    margin-right: 10px;
+  }
+}

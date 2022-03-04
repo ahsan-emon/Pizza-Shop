@@ -140,7 +140,7 @@ main {
   padding-bottom: 100px;
 }
 .handmade-col {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 .pizza-process-img img {
   border-radius: 50%;
@@ -291,6 +291,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
+  width: 700px;
 }
 .offer-1 {
   position: absolute;
@@ -468,6 +469,9 @@ main {
 }
 .download-app p {
   width: 100%;
+}
+.mobile-view {
+  text-align: center;
 }
 .btn-div {
   margin-top: 20px;
